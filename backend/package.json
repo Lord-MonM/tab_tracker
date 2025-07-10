@@ -1,0 +1,30 @@
+{
+  "name": "tab_tracker",
+  "version": "1.0.0",
+  "description": "An app that keeps tracks or logs on your daily sales to to give you daily/monthly feedback of your invoices and purchases",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lord-MonM/tab_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lord-MonM/tab_tracker/issues"
+  },
+  "homepage": "https://github.com/Lord-MonM/tab_tracker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.1",
+    "helmet": "^8.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.2"
+  }
+}
