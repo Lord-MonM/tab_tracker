@@ -1,5 +1,5 @@
 {
-  "name": "tab_tracker",
+  "name": "tab_tracker-backend",
   "version": "1.0.0",
   "description": "An app that keeps tracks or logs on your daily sales to to give you daily/monthly feedback of your invoices and purchases",
   "main": "index.js",
