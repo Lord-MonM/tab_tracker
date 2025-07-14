@@ -26,11 +26,13 @@ app.use(helmet());
 
 //Routes
 
-// app.use("/api/auth", authRoutes);
-// app.use("/api/reports", dashboardRoutes);
-// app.use("/api/reports", reportRoutes);
-// app.use("/api/tasks", taskRoutes);
-// app.use("/api/users", userRoutes);
+// app.use("/api/v1/auth", authRoutes);
+// app.use("/api/v1/dashboard", dashboardRoutes);
+// app.use("/api/v1/invoices", invoiceRoutes);
+// app.use("/api/v1/products", productRoutes);
+// app.use("/api/v1/reports", reportRoutes);
+// app.use("/api/v1/sales", salesRoutes);
+// app.use("/api/v1/users", userRoutes);
 
 
 
